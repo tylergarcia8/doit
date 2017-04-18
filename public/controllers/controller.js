@@ -1,4 +1,4 @@
-function AppCtrl() {
+function AppCtrl($scope) {
 	console.log("Hello World from controller");
 
 	person1 = {
@@ -21,5 +21,5 @@ function AppCtrl() {
 
 	var contactlist = [person1, person2, person3];
 	$scope.contactlist = contactlist;
-	
+
 }
